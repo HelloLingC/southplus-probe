@@ -9,10 +9,10 @@ import (
 func notify() {
 	notification := toast.Notification{
 		AppID:   "Southplus-probe",
-		Title:   "Southplus已开放注册",
-		Message: "请前去网站进行注册吧",
+		Title:   "Southplus now is opem for registeration",
+		Message: ":)) Delete the exe file to stop the notification loop",
 		Actions: []toast.Action{
-			{"protocol", "注册", ""},
+			{"protocol", "Go", "https://south-plus.org/register.php"},
 		},
 	}
 	err := notification.Push()

@@ -36,7 +36,8 @@ func Start(url *string) {
 }
 
 func notify_in_loop() {
-	ticker := time.NewTicker(5 * time.Minute)
+	notify()
+	ticker := time.NewTicker(2 * time.Minute)
 	defer ticker.Stop()
 	for {
 		select {
