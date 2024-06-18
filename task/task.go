@@ -20,7 +20,8 @@ func check(url *string) bool {
 
 func Start(url *string) {
 	check(url)
-	fmt.Println("\033[0m正在后台运行中... 将在24小时后进行下一次检测")
+	f_time := time.Now().Format("2006-01-02 15:04:05")
+	fmt.Printf("\033[0m%v 正在后台运行中... 将在24小时后进行下一次检测\n", f_time)
 	ticker := time.NewTicker(24 * time.Hour)
 	defer ticker.Stop()
 	for {
