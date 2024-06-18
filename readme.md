@@ -6,6 +6,15 @@
 
 运行环境：Windows 10+
 
+# 命令
+
+移除开机自启：
+
+```
+./southplus-probe.exe -noautostart
+```
+
+
 
 
 
