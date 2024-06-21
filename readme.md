@@ -13,6 +13,20 @@
 ```
 ./southplus-probe.exe -noautostart
 ```
+# 类人群星闪耀时
+
+某位来自北京的贴吧用户🤡🤡🤡
+
+![An Idiot](/img/an_idiot.png)
+
+《宏病毒》
+
+《传染了20多个exe》
+
+《桌面的表格文件被刷新重置》
+
+
+
 
 
 
